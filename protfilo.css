@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    box-shadow: 0 0 5px gray;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media(max-width: 600px) {
+    .projects {
+        flex-direction: column;
+    }
+}
